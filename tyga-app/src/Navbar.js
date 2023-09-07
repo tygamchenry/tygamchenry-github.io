@@ -1,7 +1,8 @@
+import './Navbar.css';
+
 export default function Navbar() {
     return <nav className="nav">
-        <a href="/" class="site-title">Site Name</a>
-        <ul>
+        <ul class="nav-menu">
             <li>
                 <a href="/">Home</a>
             </li>
