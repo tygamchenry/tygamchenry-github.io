@@ -1,18 +1,19 @@
+import React from 'react';
 import './Navbar.css';
 
 export default function Navbar() {
     return <nav className="nav">
         <ul class="nav-menu">
-            <li>
+            <li className="btn">
                 <a href="/">Home</a>
             </li>
-            <li>
+            <li className="btn">
                 <a href="/">About</a>
             </li>
-            <li>
+            <li className="btn">
                 <a href="/">Projects</a>
             </li>
-            <li>
+            <li className="btn">
                 <a href="/">Contact</a>
             </li>
         </ul>
