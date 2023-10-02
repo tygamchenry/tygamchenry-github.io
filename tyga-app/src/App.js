@@ -1,13 +1,16 @@
-//import logo from './logo.svg';
-import './App.css';
-import Navbar from './Navbar';
+import logo from './logo.svg';
 import React from 'react';
+import './App.css';
+import { Navbar } from 'react-bootstrap';
+import PortfolioNav from './Components/Navigation';
 
-
-function App() {
-  return (
-    <Navbar />
-  );
+function App () {
+    return (
+        <div>
+            {/* <h1>Hello</h1> */}
+            <PortfolioNav />
+        </div>
+    );
 }
 
 export default App;
