@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import React from 'react';
 import './App.css';
-import { Navbar } from 'react-bootstrap';
-import PortfolioNav from './Components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PortfolioNav from './Components/Navigation.js';
 
 function App () {
     return (
         <div>
-            {/* <h1>Hello</h1> */}
             <PortfolioNav />
         </div>
     );
