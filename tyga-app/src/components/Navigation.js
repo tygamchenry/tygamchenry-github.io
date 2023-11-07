@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import styles from './../Components/Navigation.module.css';
 import iconImage from "./../assets/images/Tyga-icon.jpg";
 
-function PortfolioNav() {
+export default function PortfolioNav() {
   return (
     <Container>
       <NavbarBrand href='#home' className='navbar navbar-expand-lg'>
@@ -18,7 +18,7 @@ function PortfolioNav() {
         />
       <Nav activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/home"><h4 className={styles.linkText}>Home</h4></Nav.Link>
+          <Nav.Link href="/home"><h5 className={styles.linkText}>Home</h5></Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-1">About</Nav.Link>
@@ -34,5 +34,3 @@ function PortfolioNav() {
     </Container>
   );
 };
-
-export default PortfolioNav;

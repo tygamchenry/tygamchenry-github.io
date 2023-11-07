@@ -1,15 +1,17 @@
-import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PortfolioNav from './Components/Navigation.js';
+import UnderConstruction from './Components/UnderConstruction';
+import Heading from './Components/Heading';
 
 function App () {
-    return (
-        <div>
-            <PortfolioNav />
-        </div>
-    );
+  return (
+    <div className="App">
+        <Heading />
+        <UnderConstruction />
+    </div>
+  );
 }
+
 
 export default App;
