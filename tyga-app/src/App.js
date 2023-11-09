@@ -1,17 +1,16 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Layout from './Components/Layout';
 import UnderConstruction from './Components/UnderConstruction';
-import Heading from './Components/Heading';
 
-function App () {
+
+export default function App () {
   return (
     <div className="App">
-        <Heading />
-        <UnderConstruction />
+        <Layout>
+            <UnderConstruction />
+        </Layout>
     </div>
   );
 }
-
-
-export default App;

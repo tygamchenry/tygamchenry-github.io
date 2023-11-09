@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Giphy from './Giphy';
 
 
-function UnderConstruction() {
+export default function UnderConstruction() {
     return (
         <Container>
             <Row>
@@ -20,5 +20,3 @@ function UnderConstruction() {
         </Container>
     );
 }
-
-export default UnderConstruction;

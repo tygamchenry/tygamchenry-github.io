@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 
 const giphy = new GiphyFetch(process.env.REACT_APP_GIPHY_KEY)
 
-function Giphy () {
+export default function Giphy () {
     const [text, setText] = useState('')
     const [results, setResults] = useState([])
     const [err, setErr] = useState(false)
@@ -56,6 +56,3 @@ function Giphy () {
     </Container>
   )
 }
-
-
-export default Giphy;
