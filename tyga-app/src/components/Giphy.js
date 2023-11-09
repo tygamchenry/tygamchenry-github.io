@@ -30,7 +30,7 @@ export default function Giphy () {
     console.log(text)
 
     const apiCall = async () => {
-        const res = await giphy.animate(text, {limit: 20})
+        const res = await giphy.animate(text, {limit: 3})
         console.log(res.data)
         setResults(res.data)
     }
