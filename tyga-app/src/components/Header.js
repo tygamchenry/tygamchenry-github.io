@@ -5,7 +5,7 @@ import iconImage from "./../assets/images/Tyga-icon.jpg";
 
 export default function Header() {
     return (
-        <header>
+        <>
             <Stack direction="horizontal" >
                 <img 
                     src={iconImage}
@@ -16,6 +16,6 @@ export default function Header() {
                     />
                     <div><p>Tyga McHenry</p></div>
             </Stack>
-        </header>
+        </>
     );
 }

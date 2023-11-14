@@ -1,5 +1,6 @@
+@import '/src/Components/css/variables.scss';
+
 footer {
-    background-color: purple;
     text-align: center;
     margin-top: auto;
     position: fixed;
@@ -8,9 +9,9 @@ footer {
     bottom: 0;
 
     p {
-        font-family: 'Poppins', sans-serif;
+        font-family: $font-paragraph;
         font-size: 12px;
-        color: #fff;
+        color: $text-dark;
         margin: .5em;
     }
 }
