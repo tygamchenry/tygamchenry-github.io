@@ -1,9 +1,15 @@
 @import './../Components/css/variables.scss';
 
+.UContainer {
+    margin-top: 50px;
+}
+
 .font {
     h1 {
         font-family: $font-heading;
         font-size: 60px;
+        z-index: 2;
+        margin-bottom: -50px;
     }
 
     p {

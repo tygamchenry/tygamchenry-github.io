@@ -7,17 +7,15 @@ import Video from './Video';
 export default function UnderConstruction() {
 
     return (
-        <Container >
-            <Row className='font-container'>
+        <Container className={`${styles.UContainer}`}>
+            <Row>
                 <Col className={`d-flex flex-column align-items-center justify-content-center ${styles.font}`} >
-                    <h1>Under Construction</h1>
-                    <p>My portfolio is getting a facelift, and will be coming soon. <br />Thanks for stopping by!</p>
-                </Col>
-                <Col className='d-flex flex-column align-items-center justify-content-center'>
+                    <h1>My new portfolio is on the way.</h1>
                     <Video />
+                    <p>Until then, visit the links below to see what else I've been up to.</p>
+                    <SocialIcons />
                 </Col>
             </Row>
-            <SocialIcons />
         </Container>
     );
 }

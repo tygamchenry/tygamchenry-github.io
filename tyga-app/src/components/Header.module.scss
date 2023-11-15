@@ -1,0 +1,25 @@
+@import './../Components/css/variables.scss';
+
+.logo {
+    padding: 25px 50px;
+
+
+    p {
+        padding: 0;
+        margin: 0;
+    }
+
+    :first-child {
+        font-family: $font-logo-bold;
+        font-size: 25px;
+        line-height: 0.5;
+    }
+
+    :last-child {
+        font-family: $font-logo-light;
+        font-size: 10px;
+        position: fixed;
+        left: 90px;
+        letter-spacing: 0.2em;
+    }
+}

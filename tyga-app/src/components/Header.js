@@ -1,21 +1,16 @@
 import React from 'react'
-import Stack from 'react-bootstrap/Stack'
+//import Stack from 'react-bootstrap/Stack'
 import iconImage from "./../assets/images/Tyga-icon.jpg";
+import styles from "./Header.module.scss";
 
 
 export default function Header() {
     return (
         <>
-            <Stack direction="horizontal" >
-                <img 
-                    src={iconImage}
-                    className="avatar"
-                    alt="Tyga McHenry"
-                    width={125}
-                    height={'auto'}
-                    />
-                    <div><p>Tyga McHenry</p></div>
-            </Stack>
+            <div className={`${styles.logo}`}>
+                <p>tyga mchenry.</p>
+                <p>web developer</p>
+            </div>
         </>
     );
 }
