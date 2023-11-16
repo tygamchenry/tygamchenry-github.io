@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f6c844e.css",
+    "main.js": "/static/js/main.f1031ba0.js",
+    "static/media/Tyga-icon.jpg": "/static/media/Tyga-icon.ebc203b53b05ddc8f0e3.jpg",
+    "static/media/lady-working.mp4": "/static/media/lady-working.5fdb133756e84635745f.mp4",
+    "index.html": "/index.html",
+    "main.7f6c844e.css.map": "/static/css/main.7f6c844e.css.map",
+    "main.f1031ba0.js.map": "/static/js/main.f1031ba0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f6c844e.css",
+    "static/js/main.f1031ba0.js"
+  ]
+}
