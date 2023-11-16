@@ -1,7 +1,12 @@
 @import './../Components/css/variables.scss';
 
-.UContainer {
-    margin-top: 50px;
+.container {
+    margin-top: 100px;
+    padding: 0 10% 50px;
+
+    @media (max-width: 767px) {
+        margin-top: 35px;
+    }
 }
 
 .font {
@@ -10,6 +15,10 @@
         font-size: 60px;
         z-index: 2;
         margin-bottom: -50px;
+
+        @media (max-width: 767px) {
+            font-size: 48px;
+        }
     }
 
     p {
