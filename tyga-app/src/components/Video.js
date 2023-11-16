@@ -12,6 +12,8 @@ export default function Video() {
             loop={true}
             playing
             autoPlay
+            controls={false}
+            playsinline
             />
     );
 }
